@@ -50,7 +50,7 @@ export const FormTask = ({ onNewTask }) => {
   return (
     <form className='container-form' onSubmit={onSubmit}>
         <input onChange={handleChange} type='text' value={ title } name='title' placeholder='Task' autoComplete='off' className='container-form-title'/>
-        <input onChange={handleChange} type='text' value={ description } name='description' placeholder='Description...' autoComplete='off' className='container-form-description'/>
+        <textarea onChange={handleChange} name='description' id="description" value={ description } placeholder='Description...' autoComplete='off' className='container-form-description'></textarea>
         <div className="containter-form-colors">
           <input onChange={handleChange} type='radio' value='#056f70' name='color' id='blue' />
           <input onChange={handleChange} type='radio' value='#ef6476f8' name='color' id='pink' />

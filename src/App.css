@@ -57,14 +57,20 @@
   height: 35px;
   color: #eee;
   background: none;
+  font-size: .8rem;
   border: 1px solid #222;
   border-radius: 4px;
   outline: none;
   transition: border 0.3s ease-in;
 }
+.container-form-description{
+  padding-top: 10px;
+  height: 100px;
+  resize: none;
+}
 /* TODO: Seria mejor solo ':focus' ?*/
-.container-form-title:hover,
-.container-form-description:hover,
+/* .container-form-title:hover,
+.container-form-description:hover, */
 .container-form-title:focus,
 .container-form-description:focus {
   border: 1px solid #019252;
