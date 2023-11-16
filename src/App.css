@@ -174,5 +174,21 @@ input[type='radio']:checked {
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+.footer-list{
+  display: flex;
+  gap: 15px;
+}
+.footer-list-item{
+  list-style: none;
+}
+.list-item-link{
+  color: #aaa;
+  text-decoration: none;
+  transition: color .3s ease, box-shadow .3s ease;
+}
+.list-item-link:hover, .list-item-link:active{
+  color: #019252;
+  filter: drop-shadow( 0px 0px 10px #019252);
 }
